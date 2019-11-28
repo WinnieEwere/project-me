@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia" cursive;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.bg-color {
+    background: var(--primary-color) !important;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.font-roboto {
+    font-family: var(--roboto);
+}
+
+.lightblue {
+    color: lightblue;
+}
+
+header {
+    background: var(--primary-color);
+    font-family: var(--roboto);
+}
+
+header .site-title {
+    font-family: var(--gugi);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
+}
+
+.header-links a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+.cart-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 40px;
+}
+
+.product-img {
+    height: 300px;
+}
+
+.btn-colour {
+    background: var(--primary-color) !important;
+}
